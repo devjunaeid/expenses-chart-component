@@ -39,8 +39,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [View solution at Frontend Mentor](https://www.frontendmentor.io/solutions/dynamic-expense-chartdata-loaded-from-json-using-html-css-and-js-sZBNnOgqCP)
+- Live Site URL: [View Live here in Github Pages](https://devjunaeid.github.io/expenses-chart-component)
 
 ## My process
 
