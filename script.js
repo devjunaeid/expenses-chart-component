@@ -20,8 +20,8 @@ function generateChartTemplate(data) {
           <p class="barName">${element.day}</p>
           <div class="bar">
             <div class="barLine" style=${height}>
-              <span class="hide">${element.amount}</span>
             </div>
+              <span class="hide">$${element.amount}</span>
           </div>
     </div>`;
     chartStore.insertAdjacentHTML("beforeend", bar)

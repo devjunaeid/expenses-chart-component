@@ -8,7 +8,6 @@ body {
   background-color: rgb(245, 240, 228);
 }
 
-
 /* Main Container */
 .mainCont {
   display: flex;
@@ -17,7 +16,7 @@ body {
   justify-content: center;
   align-items: center;
   gap: 10px;
-  min-width: 450px;
+  min-width: 500px;
   margin: auto;
 }
 
@@ -105,7 +104,7 @@ body {
 
 .bar {
   width: 100%;
-  height: 200px;
+  height: 250px;
   display: flex;
   flex-direction: column-reverse;
   border-radius: 10px;
@@ -126,10 +125,20 @@ body {
   color: white;
 }
 
-.barLine:hover {
-  background-color: blue;
+.bar:hover {
   .hide {
     display: block;
+    text-align: center;
+    padding: 5px;
+    border-radius: 2px;
+    margin-bottom: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: black;
+  }
+  
+  .barLine{
+    background-color: rgb(243, 63, 63);
   }
 }
 
@@ -183,7 +192,12 @@ body {
 /* Mobile Design */
 @media only screen and (max-width: 600px) {
   .mainCont {
-    min-width: 85%;
+    min-width: 80dvw;
     margin: auto;
+  }
+
+  .hide{
+    font-size: 8px !important;
+    padding: 1px;
   }
 }
