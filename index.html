@@ -10,7 +10,7 @@
 
   <title>Frontend Mentor | Expenses chart component</title>
   <!-- Custom Css -->
-  <link rel="stylesheet" href="./style.css" />
+  <link rel="stylesheet" href="style.css" />
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
@@ -26,25 +26,54 @@
 </head>
 
 <body>
- 
+  
+  <!-- Main Container -->
+  <div class="mainCont">
+    
+    <!-- Hearder Info -->
+    <div class="hearder">
+      <p class="textInfo">
+        My balance
+        <span>$921.48</span>
+      </p>
+      <img src="./images/logo.svg" alt="Logo" class="logo">
+    </div>
+    
+    <!-- Chart Container -->
+    <div class="chartCont">
+      <h2 class="chartHeader">
+        Spending - Last 7 days
+      </h2>
+      
+      <!-- Barchart Bar Container -->
+      <div class="chart">
+        <!-- Here Charts bar will dynamically inserted using JS.-->
+      </div>
+      
+      <!-- Horizontal Line -->
+      <div class="hline"></div>
 
-
-  tue
-  wed
-  thu
-  fri
-  sat
-  sun
-
-
+      <!-- Expense Report Container -->
+      <div class="reportCont">
+        <div class="totalExpense">
+          <p class="txLabel">Total this month</p>
+          <p class="amount">$478.33</p>
+        </div>
+        <div class="expenseInsight">
+          <p class="changesAmount">+2.4%</p>
+          <p>from last month</p>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="www.linkedin.com/in/junaeid">Thamid Junaeid</a>.
   </div>
 
   <!-- Cusotm JS -->
-  <script src="./script.js"></script>
+  <script src="./script.js" type="module"></script>
 </body>
 
 </html>
